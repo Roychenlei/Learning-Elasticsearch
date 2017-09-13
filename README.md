@@ -1,5 +1,5 @@
 # Learning-Elasticsearch
-Elasticsearch 学习笔记
+
 ###一、 Basic Concept
 Elasticsearch 是基于Lucene 的搜索引擎。Lucene 是一个强大的开源搜索库。它俩关系就像是汽车 跟引擎的关系。Elasticsearch 是一个实时的分布式搜索分析引擎，被用作全文检索、结构化搜索、分析以及这三个功能的组合。官方定义：
 >Elasticsearch is a distributed, RESTful search and analytics engine capable of solving a growing number of use cases. As the heart of the Elastic Stack, it centrally stores your data so you can discover the expected and uncover the unexpected.
@@ -16,6 +16,7 @@ $ brew install elasticsearch
 $ brew info elasticsearch
 ```
 ![](http://upload-images.jianshu.io/upload_images/807985-e61ec9c9eaf2eac2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 ### 三、Try it out
 ```
@@ -51,4 +52,5 @@ $curl -X DELETE '127.0.0.1:9200/accounts/post/1'
 ![](http://upload-images.jianshu.io/upload_images/807985-9ca11a7a67915bc5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ###五、参考链接
-[ElasticSearch 官方网站](https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html）
+[ElasticSearch 官方网站]
+(https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html）
