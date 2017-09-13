@@ -49,5 +49,6 @@ $curl -X PUT 'localhost:9200/accounts/post/1' -d'{ "title":"elasticsearch","cont
 $curl -X DELETE '127.0.0.1:9200/accounts/post/1'
 ```
 ![](http://upload-images.jianshu.io/upload_images/807985-9ca11a7a67915bc5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 ###五、参考链接
 [ElasticSearch 官方网站](https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html）
