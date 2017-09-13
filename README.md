@@ -1,6 +1,6 @@
 # Learning-Elasticsearch
 
-###一、 Basic Concept
+### 一、 Basic Concept
 Elasticsearch 是基于Lucene 的搜索引擎。Lucene 是一个强大的开源搜索库。它俩关系就像是汽车 跟引擎的关系。Elasticsearch 是一个实时的分布式搜索分析引擎，被用作全文检索、结构化搜索、分析以及这三个功能的组合。官方定义：
 >Elasticsearch is a distributed, RESTful search and analytics engine capable of solving a growing number of use cases. As the heart of the Elastic Stack, it centrally stores your data so you can discover the expected and uncover the unexpected.
 
@@ -23,6 +23,7 @@ $ brew info elasticsearch
 $ elasticsearch
 ```
 ![chrome plugin: json viewer](http://upload-images.jianshu.io/upload_images/807985-a064e478d98200b4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 一个 Elasticsearch 请求和任何 HTTP 请求一样由若干相同的部件组成：
 ```
 $curl -X<VERB> '<PROTOCOL>://<HOST>:<PORT>/<PATH>?<QUERY_STRING>' -d '<BODY>'
@@ -38,6 +39,7 @@ $curl -X POST 'localhost:9200/accounts/post' -d'{ "title":"elasticsearch","conte
 ```
 
 ![](http://upload-images.jianshu.io/upload_images/807985-d5edef1fb23c4245.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 修改记录
 ```
 $curl -X PUT 'localhost:9200/accounts/post/1' -d'{ "title":"elasticsearch","content":"update, elasticsearch","tag":"updated"}'
